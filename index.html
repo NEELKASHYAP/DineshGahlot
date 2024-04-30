@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Photography</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to Our Photography World</h1>
+            <p>Discover the beauty through our lens</p>
+            <a href="#gallery" class="btn btn-primary">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="photo-gallery" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="assests/img/about-1.jpg" alt="Gallery Image 1">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="assests/img/about-2.jpg" alt="Gallery Image 2">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="assests/img/about-3.jpg" alt="Gallery Image 3">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="gallery-item">
+                        <img src="assests/img/carousel-1.jpg" alt="Gallery Image 3">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="gallery-item">
+                        <img src="assests/img/carousel-2.jpg" alt="Gallery Image 3">
+                    </div>
+                </div>
+                <!-- Add more gallery items as needed -->
+            </div>
+        </div>
+    </section>
+
+<!-- Testimonial Section -->
+<section class="testimonial-section">
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="2000" data-wrap="true">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                        posuere erat a ante."</p>
+                    <div class="testimonial-author">
+                        <img src="assests/img/team-2.jpg" alt="John Doe" class="rounded-circle">
+                        <p class="author-name">John Doe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium."</p>
+                    <div class="testimonial-author">
+                        <img src="assests/img/team-4.jpg" alt="Jane Smith" class="rounded-circle">
+                        <p class="author-name">Jane Smith</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more carousel items as needed -->
+        </div>
+    </div>
+</section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ante.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Email: example@example.com</li>
+                        <li>Phone: 123-456-7890</li>
+                        <li>Address: 123 Main Street, City, Country</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&copy; 2024 Photography Website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
